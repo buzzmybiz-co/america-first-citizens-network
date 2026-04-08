@@ -117,7 +117,7 @@ a:hover {
   align-items: center;
   justify-content: flex-start;
   padding: 0 5%;
-  background-image: url('assets/hero.png');
+  background-image: url('hero.png');
   background-size: cover;
   background-position: center;
 }
