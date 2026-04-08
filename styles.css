@@ -22,7 +22,12 @@ body {
   line-height: 1.6;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: var(--font-heading);
   color: var(--af-navy);
   margin-bottom: 1rem;
@@ -48,7 +53,7 @@ a:hover {
   position: sticky;
   top: 0;
   z-index: 1000;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .nav-brand a {
@@ -117,7 +122,7 @@ a:hover {
   align-items: center;
   justify-content: flex-start;
   padding: 0 5%;
-  background-image: url('hero.png');
+  background-image: url('images/hero.png');
   background-size: cover;
   background-position: center;
 }
@@ -126,8 +131,11 @@ a:hover {
 .hero::before {
   content: '';
   position: absolute;
-  top: 0; left: 0; right: 0; bottom: 0;
-  background: linear-gradient(90deg, rgba(10,34,64,0.9) 0%, rgba(10,34,64,0.5) 50%, rgba(0,0,0,0) 100%);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(90deg, rgba(10, 34, 64, 0.9) 0%, rgba(10, 34, 64, 0.5) 50%, rgba(0, 0, 0, 0) 100%);
 }
 
 .hero-content {
@@ -142,14 +150,14 @@ a:hover {
   font-size: 3.5rem;
   line-height: 1.2;
   margin-bottom: 1.5rem;
-  text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
 }
 
 .hero-content p {
   font-size: 1.2rem;
   margin-bottom: 2rem;
   font-weight: 300;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
 }
 
 .btn-primary {
@@ -161,7 +169,7 @@ a:hover {
   font-weight: 600;
   text-transform: uppercase;
   border-radius: 4px;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
   transition: transform 0.2s, background-color 0.2s;
 }
 
@@ -231,7 +239,7 @@ a:hover {
   background-color: var(--af-white);
   border-radius: 8px;
   overflow: hidden;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   height: 100%;
   display: flex;
@@ -240,7 +248,7 @@ a:hover {
 
 .card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
 
 .card-img-placeholder {
@@ -332,7 +340,7 @@ footer {
 .footer-bottom {
   text-align: center;
   padding-top: 2rem;
-  border-top: 1px solid rgba(255,255,255,0.1);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
   color: #a0aab5;
   font-size: 0.9rem;
 }
@@ -354,7 +362,7 @@ footer {
 .form-control:focus {
   outline: none;
   border-color: var(--af-navy);
-  box-shadow: 0 0 0 2px rgba(10,34,64,0.2);
+  box-shadow: 0 0 0 2px rgba(10, 34, 64, 0.2);
 }
 
 /* Responsive */
@@ -376,7 +384,7 @@ footer {
     padding: 1rem 5%;
     gap: 1rem;
   }
-  
+
   .nav-links.active {
     display: flex;
   }
@@ -384,20 +392,20 @@ footer {
   .mobile-menu-btn {
     display: block;
   }
-  
+
   .footer-grid {
     grid-template-columns: 1fr;
     gap: 2rem;
   }
-  
+
   .hero::before {
-    background: linear-gradient(180deg, rgba(10,34,64,0.8) 0%, rgba(10,34,64,0.6) 100%);
+    background: linear-gradient(180deg, rgba(10, 34, 64, 0.8) 0%, rgba(10, 34, 64, 0.6) 100%);
   }
-  
+
   .hero-content {
     text-align: center;
   }
-  
+
   .btn-secondary {
     margin-left: 0;
     margin-top: 1rem;
