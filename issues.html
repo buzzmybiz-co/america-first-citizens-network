@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Core issues and policy priorities of the America First Citizens Network.">
+    <title>Issues | America First Citizens Network</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap" rel="stylesheet">
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .page-header {
+            background-color: var(--af-navy);
+            color: var(--af-white);
+            padding: 4rem 5%;
+            text-align: center;
+        }
+        .page-header h1 {
+            color: var(--af-white);
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+        .issues-nav {
+            background-color: var(--af-light-gray);
+            padding: 1rem 5%;
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            border-bottom: 1px solid #ddd;
+        }
+        .issues-nav a {
+            font-weight: 600;
+            color: var(--af-navy);
+            text-transform: uppercase;
+            font-size: 0.9rem;
+        }
+        .issues-nav a:hover {
+            color: var(--af-red);
+        }
+        .issue-section {
+            padding: 5rem 5%;
+            max-width: 900px;
+            margin: 0 auto;
+            border-bottom: 1px solid #eee;
+        }
+        .issue-section:last-child {
+            border-bottom: none;
+        }
+        .issue-section h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1.5rem;
+            color: var(--af-navy);
+            position: relative;
+        }
+        .issue-section p {
+            font-size: 1.15rem;
+            margin-bottom: 1.5rem;
+        }
+        hr.red-divider {
+            border: 0;
+            height: 4px;
+            width: 60px;
+            background-color: var(--af-red);
+            margin: 0 0 2rem 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-brand">
+            <a href="index.html">America First <span class="red">Citizens Network</span></a>
+        </div>
+        <button class="mobile-menu-btn" aria-label="Toggle Navigation">&#9776;</button>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="issues.html">Issues</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="donate.html" class="donate-btn">Donate</a></li>
+        </ul>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="page-header">
+        <h1>Our Priorities</h1>
+        <p>Advocating for policies that strengthen our nation.</p>
+    </header>
+
+    <!-- Sub-navigation -->
+    <div class="issues-nav">
+        <a href="#economy">Economic Prosperity</a>
+        <a href="#security">National Security</a>
+        <a href="#freedom">Individual Liberty</a>
+    </div>
+
+    <!-- Main Content -->
+    <main>
+        <section id="economy" class="issue-section">
+            <h2>Economic Prosperity</h2>
+            <hr class="red-divider">
+            <p>A thriving America relies on the ingenuity of its citizens and free enterprise, not burdensome government micromanagement. We advocate for reducing restrictive regulations that stifle small businesses, lowering taxes for hardworking Americans, and fostering an environment where innovation can flourish.</p>
+            <p>Our goal is to revitalize American industries by protecting our markets and encouraging domestic manufacturing. We stand against policies that penalize success or drive jobs overseas, ensuring that the American Dream remains attainable for generations to come.</p>
+        </section>
+
+        <section id="security" class="issue-section">
+            <h2>National Security & Sovereignty</h2>
+            <hr class="red-divider">
+            <p>A nation without robust borders and a strong adherence to the rule of law ceases to be a nation. We fully support measures that secure our borders, enforce existing immigration laws, and protect American sovereignty from international bodies that seek to diminish our authority.</p>
+            <p>Internally, we stand with our law enforcement officers, rejecting policies that undermine public safety or tolerate rising crime. Internationally, we advocate for a strong military, peace through strength, and foreign policy that genuinely prioritizes national interests over endless, unfocused interventions.</p>
+        </section>
+
+        <section id="freedom" class="issue-section">
+            <h2>Individual Liberty & Constitutional Rights</h2>
+            <hr class="red-divider">
+            <p>The Constitution is the bedrock of our society, designed explicitly to constrain government and protect the inherent rights of the individual. We fiercely oppose efforts to erode freedom of speech, freedom of religion, and the right to keep and bear arms.</p>
+            <p>We are dedicated to combating censorship in both public and private sectors, defending parental rights in education, and preventing the unwarranted growth of the administrative state that threatens everyday civic freedoms.</p>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-col" style="grid-column: span 1 / span 1;">
+                <h4 style="font-family: var(--font-heading); text-transform: none; font-size: 1.5rem; letter-spacing: 0;">America First<br><span style="color: var(--af-red);">Citizens Network</span></h4>
+                <p>A 501(c)(4) non-profit organization dedicated to advocating for policies that put the American citizen first.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul class="footer-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="issues.html">Issues</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Take Action</h4>
+                <ul class="footer-links">
+                    <li><a href="donate.html">Donate</a></li>
+                    <li><a href="contact.html">Volunteer</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contact</h4>
+                <ul class="footer-links">
+                    <li>Washington, D.C.</li>
+                    <li>info@americafirstcitizens.org</li>
+                    <li>(202) 555-0198</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 America First Citizens Network. All rights reserved.</p>
+            <p style="font-size: 0.8rem; margin-top: 0.5rem; color: #777;">Contributions to America First Citizens Network are not deductible as charitable contributions for federal income tax purposes.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
