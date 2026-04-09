@@ -38,6 +38,40 @@
             border-bottom: 2px solid var(--af-red);
             display: inline-block;
         }
+        .founders-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2rem;
+            margin-top: 2.5rem;
+            text-align: center;
+        }
+        .founder-card img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            object-position: top;
+            border-radius: 8px;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        .founder-name {
+            font-weight: 700;
+            font-size: 1.3rem;
+            color: var(--af-navy);
+            margin-bottom: 0.25rem;
+        }
+        .founder-title {
+            color: var(--af-red);
+            font-size: 0.95rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            font-weight: 600;
+        }
+        @media (max-width: 768px) {
+            .founders-grid {
+                grid-template-columns: 1fr;
+            }
+        }
     </style>
 </head>
 <body>
@@ -71,6 +105,24 @@
         
         <h2>Who We Are</h2>
         <p>We are a coalition of passionate, patriotic citizens from all walks of life—parents, small business owners, veterans, and community leaders—united by the shared belief that America is an exceptional nation. Our leadership team consists of seasoned advocates and policy experts who know how to enact meaningful change at local, state, and federal levels.</p>
+
+        <div class="founders-grid">
+            <div class="founder-card">
+                <img src="images/founder1.png" alt="Randy Cooper">
+                <div class="founder-name">Randy Cooper</div>
+                <div class="founder-title">Co-Founder</div>
+            </div>
+            <div class="founder-card">
+                <img src="images/founder2.jpg" alt="Norine Cantor">
+                <div class="founder-name">Norine Cantor</div>
+                <div class="founder-title">Co-Founder</div>
+            </div>
+            <div class="founder-card">
+                <img src="images/founder3.png" alt="Linda Bell-Harrell">
+                <div class="founder-name">Linda Bell-Harrell</div>
+                <div class="founder-title">Co-Founder</div>
+            </div>
+        </div>
 
         <h2>How We Work</h2>
         <p>Through grassroots organization, educational campaigns, and digital advocacy, we ensure that the priorities of the American people take precedence. We mobilize our members to contact their representatives, participate in local government, and rally behind initiatives that put America first.</p>
